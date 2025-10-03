@@ -1,12 +1,8 @@
-Domain,Domain (A-label),Language,Script
-إختبار,XN--KGBECHTV,Arabic,Arabic
-آزمایشی,XN--HGBK6AJ7F53BBA,Persian,Arabic
-测试,XN--0ZWM56D,Chinese,Han (Simplified variant)
-測試,XN--G6W251D,Chinese,Han (Traditional variant)
-испытание,XN--80AKHBYKNJ4F,Russian,Cyrillic
-परीक्षा,XN--11B5BS3A9AJ6G,Hindi,Devanagari (Nagari)
-δοκιμή,XN--JXALPDLP,"Greek, Modern (1453-)",Greek
-테스트,XN--9T4B11YI5A,Korean,"Hangul (Hangŭl, Hangeul)"
-טעסט,XN--DEBA0AD,Yiddish,Hebrew
-テスト,XN--ZCKZAH,Japanese,Katakana
-பரிட்சை,XN--HLCJ6AYA9ESC7A,Tamil,Tamil
+Language,Statements ratio,Lines ratio
+C,1,1
+C++,2.5,1
+Fortran,2,0.8
+Java,2.5,1.5
+Perl,6,6
+Smalltalk,6,6.25
+Python,6,6.5
