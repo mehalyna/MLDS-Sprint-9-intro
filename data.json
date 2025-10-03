@@ -1,0 +1,67 @@
+[
+  {
+    "user": {
+      "id": 1,
+      "profile": {
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com"
+      }
+    },
+    "activity": {
+      "last_login": "2024-07-01T10:23:45",
+      "posts_count": 34
+    }
+  },
+  {
+    "user": {
+      "id": 2,
+      "profile": {
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com"
+      }
+    },
+    "activity": {
+      "last_login": "2024-07-02T08:15:30",
+      "posts_count": 12
+    }
+  },
+  {
+    "user": {
+      "id": 3,
+      "profile": {
+        "name": "Carol Davis",
+        "email": "carol.davis@example.com"
+      }
+    },
+    "activity": {
+      "last_login": "2024-07-03T14:05:10",
+      "posts_count": 58
+    }
+  },
+  {
+    "user": {
+      "id": 4,
+      "profile": {
+        "name": "David Lee",
+        "email": "david.lee@example.com"
+      }
+    },
+    "activity": {
+      "last_login": "2024-07-04T19:45:00",
+      "posts_count": 7
+    }
+  },
+  {
+    "user": {
+      "id": 5,
+      "profile": {
+        "name": "Eva Green",
+        "email": "eva.green@example.com"
+      }
+    },
+    "activity": {
+      "last_login": "2024-07-05T12:30:20",
+      "posts_count": 21
+    }
+  }
+]

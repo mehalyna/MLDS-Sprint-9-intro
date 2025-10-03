@@ -1,0 +1,9 @@
+Hello team,
+Please reach out to john.doe@example.com for the project update.
+Also, send the final report to jane_smith123@work-mail.org and feedback to admin@company.com.
+
+Best regards,
+Support Team
+contact@support.company.net
+random_text_without_email
+foo.bar@sub.domain.co.uk

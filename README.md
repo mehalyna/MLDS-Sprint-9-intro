@@ -1,7 +1,26 @@
-# Task A - Table Scraping README
+# MLDS Sprint 9 - Data Science Exercises
 
-## Description
-This project extracts HTML tables from Wikipedia pages and saves them as both CSV and JSON formats.
+This project contains data science exercises covering web scraping, API integration, data processing, and text analysis.
+
+## Tasks Included
+
+### Task A - Table Scraping
+Extract HTML tables from Wikipedia pages and save them as CSV and JSON formats.
+
+### Task B - Weather Forecast Analysis
+Fetch weather data from APIs and perform anomaly detection.
+
+### Task C - Data Normalization
+Normalize multi-city weather data with different schemas.
+
+### Task D - Data Imputation
+Fill missing data using linear interpolation and moving averages.
+
+### Task E - XML Parsing
+Parse hourly weather XML data with namespace handling.
+
+### Task F - Free-text Weather Extraction
+Extract weather data from free-text logs using regex patterns.
 
 ## URLs Used
 
@@ -33,4 +52,4 @@ This implementation contains several intentional bugs for educational purposes:
 - `table_data.json`: JSON array of objects format
 
 ## Usage
-Run the notebook cell to execute the scraping script. The code includes error handling and fallback mechanisms.
+Run the notebook cells to execute the exercises. Each task includes both buggy and fixed versions for educational comparison.
