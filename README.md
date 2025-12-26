@@ -324,18 +324,25 @@ Aug 22 '24: TOP 35.1°C BOTTOM 25.7°C H=63% P=0mm
 ```
 MLDS_sprint_9_intro/
 ├── README.md                          # This file
-├── example1.py                        # Task A: Table Scraping
-├── example2.py                        # Task B: Weather Forecast & Anomaly Detection
-├── example3.py                        # Task C: Normalize & Combine Weather Files
-├── example4.py                        # Task D: Missing Data Imputation
-├── example5.py                        # Task E: XML Parsing
-├── example6.py                        # Task F: Free-text Extraction
-├── example1.ipynb                     # Notebook version of Task A
-├── example2.ipynb                     # Notebook version of Task B
-├── example3.ipynb                     # Notebook version of Task C
-├── example4.ipynb                     # Notebook version of Task D
-├── example5.ipynb                     # Notebook version of Task E
-├── example6.ipynb                     # Notebook version of Task F
+├── app.py                             # 🚀 Streamlit Visualization Dashboard
+├── requirements.txt                   # Python dependencies
+│
+├── examples_py/                       # Python implementations
+│   ├── example1.py                    # Task A: Table Scraping
+│   ├── example2.py                    # Task B: Weather Forecast & Anomaly Detection
+│   ├── example3.py                    # Task C: Normalize & Combine Weather Files
+│   ├── example4.py                    # Task D: Missing Data Imputation
+│   ├── example5.py                    # Task E: XML Parsing
+│   └── example6.py                    # Task F: Free-text Extraction
+│
+├── examples_ipynb/                    # Jupyter Notebook versions
+│   ├── example1.ipynb                 # Notebook version of Task A
+│   ├── example2.ipynb                 # Notebook version of Task B
+│   ├── example3.ipynb                 # Notebook version of Task C
+│   ├── example4.ipynb                 # Notebook version of Task D
+│   ├── example5.ipynb                 # Notebook version of Task E
+│   └── example6.ipynb                 # Notebook version of Task F
+│
 └── [output files]                     # Generated data files
 ```
 
@@ -343,12 +350,10 @@ MLDS_sprint_9_intro/
 
 ## Dependencies
 
-```bash
-# Core libraries
-pip install requests beautifulsoup4 pandas numpy
+Install all required dependencies using:
 
-# Optional for enhanced functionality
-pip install lxml  # For XML parsing performance
+```bash
+pip install -r requirements.txt
 ```
 
 ### Required Python Packages
@@ -356,39 +361,65 @@ pip install lxml  # For XML parsing performance
 - **beautifulsoup4**: HTML/XML parsing library
 - **pandas**: Data manipulation and analysis
 - **numpy**: Numerical computing for statistics
-- **json**: JSON serialization (built-in)
-- **re**: Regular expressions (built-in)
-- **xml.etree.ElementTree**: XML parsing (built-in)
-- **datetime**: Date/time handling (built-in)
+- **streamlit**: Interactive web dashboard framework
+- **plotly**: Interactive visualization library
+- **lxml**: Fast XML/HTML parsing (optional but recommended)
+
+### Built-in Modules (No installation needed)
+- **json**: JSON serialization
+- **re**: Regular expressions
+- **xml.etree.ElementTree**: XML parsing
+- **datetime**: Date/time handling
 
 ---
 
 ## Running the Tasks
 
-### Run Individual Tasks
+### Option 1: Interactive Streamlit Dashboard (Recommended) 🚀
+
+Launch the interactive visualization dashboard to explore all results:
+
 ```bash
-# Task A - Table Scraping
-python example1.py
+# Install dependencies first
+pip install -r requirements.txt
 
-# Task B - Weather Forecast & Anomaly Detection
-python example2.py
-
-# Task C - Normalize & Combine Weather Files
-python example3.py
-
-# Task D - Missing Data Imputation
-python example4.py
-
-# Task E - XML Parsing
-python example5.py
-
-# Task F - Free-text Extraction
-python example6.py
+# Run the Streamlit app
+streamlit run app.py
 ```
 
-### Using Jupyter Notebooks
+The dashboard will open in your browser at `http://localhost:8501` and provides:
+- 📊 Interactive visualizations for all tasks
+- 🔄 Toggle between buggy and fixed versions
+- 📈 Charts, graphs, and statistical summaries
+- 📥 Data export capabilities
+- 🎯 Easy navigation between tasks
+
+### Option 2: Run Individual Tasks
+
 ```bash
-jupyter notebook example1.ipynb
+# Task A - Table Scraping
+python examples_py/example1.py
+
+# Task B - Weather Forecast & Anomaly Detection
+python examples_py/example2.py
+
+# Task C - Normalize & Combine Weather Files
+python examples_py/example3.py
+
+# Task D - Missing Data Imputation
+python examples_py/example4.py
+
+# Task E - XML Parsing
+python examples_py/example5.py
+
+# Task F - Free-text Extraction
+python examples_py/example6.py
+```
+
+### Option 3: Using Jupyter Notebooks
+
+```bash
+jupyter notebook examples_ipynb/example1.ipynb
 # ... and so on for other notebooks
 ```
 
