@@ -8,9 +8,9 @@ Standard format: city, date, max, min, precip, wind, humidity
 
 import json
 import pandas as pd
-from normalize_tokyo import normalize_tokyo_data
-from normalize_newyork import normalize_newyork_data  
-from normalize_london import normalize_london_data
+from examples_py.normalize_tokyo import normalize_tokyo_data
+from examples_py.normalize_newyork import normalize_newyork_data  
+from examples_py.normalize_london import normalize_london_data
 
 def load_and_normalize_all_cities():
     """
